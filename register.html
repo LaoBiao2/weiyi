@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-box clearfix">
+            <a href="javascript:;" class="logo-a">
+                <img src="./images/header_logo.png" alt="">
+            </a>
+            <ul class="ul-nav clearfix">
+                <li class="nav-li nav-li1 active">
+                    <a href="javascript:;">首页</a>
+                </li>
+                <li class="nav-li nav-li2">
+                    <a href="javascript:;">交易</a>
+                    <div class="submenu">
+                        <ul class="first-ul clearfix">
+                            <li class="first-li first-li1">
+                                <i></i>
+                                <span>账户管理</span>
+                                <ul class="second-ul">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>用户中心</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>标准账户</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>体验账户</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="first-li first-li2">
+                                <i></i>
+                                <span>交易产品</span>
+                                <ul class="second-ul">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>现货黄金</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>现货白银</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>富时A50</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>原油</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>美元指数</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="first-li first-li3">
+                                <i></i>
+                                <span>软件下载</span>
+                                <ul class="second-ul">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>MT4 桌上设备</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>MT4 移动设备</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="first-li first-li4">
+                                <i></i>
+                                <span>重点关注</span>
+                                <ul class="second-ul">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>最新公告</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>财经日历</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>非农专题</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>议息专题</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-li nav-li3">
+                    <a href="javascript:;">教育培训</a>
+                    <div class="submenu">
+                        <ul class="first-ul clearfix">
+                            <li class="first-li first-li1">
+                                <i></i>
+                                <span>教育培训</span>
+                                <ul class="second-ul">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>账户指引</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>操作指南</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>MT4指导</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>基本知识</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>常见问题</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-li nav-li4">
+                    <a href="javascript:;">市场动态</a>
+                    <div class="submenu">
+                        <ul class="first-ul clearfix">
+                            <li class="first-li first-li1">
+                                <i></i>
+                                <span>市场动态</span>
+                                <ul class="second-ul">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>专家点评</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>行情分析</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>经济数据</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>时事热点</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <b></b>投行观点</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-li nav-li5">
+                    <a href="javascript:;">关于VEFX</a>
+                </li>
+            </ul>
+            <div class="btn-div">
+                <a href="javascript:;" class="btn-a login-btn">登录</a>
+                <a href="javascript:;" class="btn-a register-btn">创建账户<span>创建账户</span></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".header .ul-nav .nav-li").hover(function () {
+            $(this).find(".submenu").stop(true, true).fadeToggle();
+        })
+        $(".header .ul-nav .nav-li").click(function () {
+            $(".header .ul-nav .nav-li").removeClass("active");
+            $(this).addClass("active");
+        })
+    </script>
+    <div class="container register">
+        <div class="register-box clearfix">
+            <h4>用户注册</h4>
+            <div class="register-content">
+                <div class="input-box name">
+                    <span class="span-title"><b>*</b>姓名</span>
+                    <input type="text" placeholder="请输入真实姓名">
+                    <span class="error"><b>*</b><span></span></span>
+                </div>
+                <div class="input-box region">
+                    <span class="span-title"><b>*</b>地区</span>
+                    <select name="country" class="fastbannerform__country select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                        <option title="976" value="MN">Mongolia</option>
+                        <option title="853" value="MO">Macao</option>
+                        <option title="86" selected="" value="China">中国大陆</option>
+                        <option title="886" value="TW">Taiwan</option>
+                        <option title="850" value="KP">North Korea</option>
+                        <option title="81" value="JP">Japan</option>
+                        <option title="82" value="KR">P.O.Korea</option>
+                        <option title="84" value="VN">Vietnam</option>
+                        <option title="856" value="LA">Laos</option>
+                        <option title="855" value="KH">Kampuchea</option>
+                        <option title="95" value="MM">Burma</option>
+                        <option title="66" value="TH">Thailand</option>
+                        <option title="60" value="MY">Malaysia</option>
+                        <option title="65" value="SG">Singapore</option>
+                        <option title="63" value="PH">the Philippines</option>
+                        <option title="62" value="ID">Indonesia</option>
+                        <option title="673" value="BN">Brunei Darussalam</option>
+                        <option title="7" value="KZ">Kazakstan</option>
+                        <option title="7" value="KG">Kyegyzstan,Kirghizia</option>
+                        <option title="7" value="UZ">Uzbekstan</option>
+                        <option title="7" value="TJ">Tsjikistan</option>
+                        <option title="993" value="TM">Turkomanstan,Turkmenia</option>
+                        <option title="93" value="AF">Afghanistan</option>
+                        <option title="92" value="PK">Pakistan</option>
+                        <option title="977" value="NP">Nepal</option>
+                        <option title="975" value="BT">Bhutan</option>
+                        <option title="91" value="IN">India</option>
+                        <option title="880" value="BD">Bangladesh</option>
+                        <option title="94" value="LK">Sri Lanka</option>
+                        <option title="960" value="MV">Maldives</option>
+                        <option title="98" value="IR">Iran</option>
+                        <option title="964" value="IQ">Iraq</option>
+                        <option title="965" value="KW">Kuwait</option>
+                        <option title="966" value="SA">Sandi Arabia</option>
+                        <option title="973" value="BH">Bahrain</option>
+                        <option title="974" value="QA">Qatar</option>
+                        <option title="971" value="AE">The united arab emirates</option>
+                        <option title="968" value="OM">Oman</option>
+                        <option title="967" value="YE">Democratic Yemen</option>
+                        <option title="962" value="JO">Jordan</option>
+                        <option title="972" value="IL">Israel</option>
+                        <option title="963" value="SY">Syria</option>
+                        <option title="961" value="LB">Lebanon</option>
+                        <option title="357" value="CY">Cyprus</option>
+                        <option title="90" value="TR">Turkey</option>
+                        <option title="994" value="AZ">Azerbaijan</option>
+                        <option title="995" value="GE">Georgia</option>
+                        <option title="374" value="AM">Armenia</option>
+                        <option title="222" value="MR">Mauritania</option>
+                        <option title="221" value="SN">Senegal</option>
+                        <option title="220" value="GM">Gambia</option>
+                        <option title="223" value="ML">Mali</option>
+                        <option title="224" value="GN">Guinea</option>
+                        <option title="232" value="SL">Sierraleone</option>
+                        <option title="231" value="LR">Liberia</option>
+                        <option title="233" value="GH">Ghana</option>
+                        <option title="228" value="TG">Togo</option>
+                        <option title="229" value="BJ">Benin</option>
+                        <option title="277" value="NE">the Niger</option>
+                        <option title="234" value="NG">Nigeria</option>
+                        <option title="290" value="SH">St . Helena</option>
+                        <option title="297" value="CM">Cameroon</option>
+                        <option title="240" value="GQ">Equatorial Guinea</option>
+                        <option title="235" value="TD">Chad</option>
+                        <option title="241" value="GA">Gabon</option>
+                        <option title="242" value="CG">the Congo</option>
+                        <option title="243" value="ZR">Zaire</option>
+                        <option title="244" value="AO">Angola</option>
+                        <option title="251" value="ET">Ethiopia</option>
+                        <option title="253" value="DJ">Djibouti</option>
+                        <option title="252" value="SO">Somali</option>
+                        <option title="254" value="KE">Kenya</option>
+                        <option title="256" value="UG">Uganda</option>
+                        <option title="255" value="TZ">Tanzania</option>
+                        <option title="250" value="RW">Rwanda</option>
+                        <option title="257" value="BI">Burundi</option>
+                        <option title="265" value="MW">Malawi</option>
+                        <option title="258" value="MZ">Mozambique</option>
+                        <option title="261" value="MG">Malagasy</option>
+                        <option title="248" value="SC">Seychelles</option>
+                        <option title="269" value="KM">Comoros</option>
+                        <option title="230" value="MU">Mauritius</option>
+                        <option title="260" value="ZM">Zambia</option>
+                        <option title="263" value="ZW">Zimbabwe</option>
+                        <option title="267" value="BW">Botswana</option>
+                        <option title="264" value="NA">Namibia</option>
+                        <option title="27" value="ZA">South Africa</option>
+                        <option title="266" value="LS">Lesotho</option>
+                        <option title="268" value="SZ">Swaziland</option>
+                        <option title="20" value="EG">Egypt</option>
+                        <option title="249" value="SD">Sudan</option>
+                        <option title="218" value="LY">Libya</option>
+                        <option title="216" value="TN">Tunisia</option>
+                        <option title="213" value="DZ">Algeria</option>
+                        <option title="212" value="MA">Morocco</option>
+                        <option title="354" value="IS">Iceland</option>
+                        <option title="45" value="dk">Denmark</option>
+                        <option title="47" value="NO">Norway</option>
+                        <option title="46" value="SE">Sweden</option>
+                        <option title="358" value="FI">Finland</option>
+                        <option title="372" value="EE">Estonia</option>
+                        <option title="371" value="LV">Latvia</option>
+                        <option title="370" value="LT">Lithuania</option>
+                        <option title="353" value="IE">Ireland</option>
+                        <option title="44" value="GB(UK)">United Kingdom(England)</option>
+                        <option title="33" value="FR">France</option>
+                        <option title="31" value="NL">Netherlands</option>
+                        <option title="32" value="BE">Belgium</option>
+                        <option title="352" value="LU">Luxembourg</option>
+                        <option title="49" value="DE">Germany</option>
+                        <option title="43" value="AT">Austria</option>
+                        <option title="41" value="CH">Switzerland</option>
+                        <option title="4175" value="LI">Liechtenstein</option>
+                        <option title="351" value="PT">Portugal</option>
+                        <option title="34" value="ES">Spain</option>
+                        <option title="376" value="AD">Andorra</option>
+                        <option title="39" value="IT">Italy</option>
+                        <option title="356" value="MT">Malta</option>
+                        <option title="378" value="SM">Sand Marino</option>
+                        <option title="30" value="GE">Greece</option>
+                        <option title="7" value="RU">Russia</option>
+                        <option title="375" value="BY">White Russia</option>
+                        <option title="380" value="UA">Ukraine</option>
+                        <option title="48" value="PL">Poland</option>
+                        <option title="420" value="CZ">Czech Republic</option>
+                        <option title="42" value="SK">Slovakia</option>
+                        <option title="36" value="HU">Hungary</option>
+                        <option title="386" value="SI">Slovene</option>
+                        <option title="385" value="HR">Croatia</option>
+                        <option title="381" value="YU">Yugoslavia</option>
+                        <option title="355" value="AL">Albania</option>
+                        <option title="40" value="RO">Romania</option>
+                        <option title="359" value="BG">Bulgaria</option>
+                        <option title="373" value="SV">Moldavia</option>
+                        <option title="61" value="AU">Australia</option>
+                        <option title="64" value="NZ">New Zealand</option>
+                        <option title="687" value="NC">New Caledonia</option>
+                        <option title="692" value="MH">Marshall Islands</option>
+                        <option title="671" value="GU">Guam</option>
+                        <option title="677" value="SB">Solomon Islands</option>
+                        <option title="679" value="FJ">Figi</option>
+                        <option title="674" value="NR">Naura</option>
+                        <option title="682" value="CK">Cook Island</option>
+                        <option title="685" value="WS">Western Samoa</option>
+                        <option title="688" value="TV">Tuvalu</option>
+                        <option title="690" value="TK">Tokela</option>
+                        <option title="1" value="CA">Canada</option>
+                        <option title="1" value="US">America</option>
+                        <option title="1441" value="BM">Bermuda</option>
+                        <option title="52" value="MX">Mexico</option>
+                        <option title="502" value="GT">Guatemala</option>
+                        <option title="501" value="BZ">Belize</option>
+                        <option title="503" value="MD">El Salvador</option>
+                        <option title="504" value="HN">Honduras</option>
+                        <option title="505" value="NI">Nicaragua</option>
+                        <option title="506" value="CR">Costa rica</option>
+                        <option title="507" value="PA">Panama</option>
+                        <option title="1243" value="BS">Bahamas</option>
+                        <option title="53" value="CU">Cuba</option>
+                        <option title="1876" value="JM">Jamaica</option>
+                        <option title="509" value="HT">Haiti</option>
+                        <option title="1787" value="PR">Puerto Rico</option>
+                        <option title="1246" value="BB">Barbados</option>
+                        <option title="590" value="GP">Guadeloupe</option>
+                        <option title="1809" value="DO">the Dominica Republic</option>
+                        <option title="1809" value="TT">Trinidad and Tobago</option>
+                        <option title="1268" value="AG">Ntigua and Barbuda</option>
+                        <option title="1345" value="KY">Cayman Islands</option>
+                        <option title="54" value="AR">Argentina</option>
+                        <option title="57" value="CO">Colombia</option>
+                        <option title="593" value="EC">Ecuador</option>
+                        <option title="58" value="VE">Venezuela</option>
+                        <option title="592" value="GY">Guyana</option>
+                        <option title="597" value="SR">Surinam</option>
+                        <option title="51" value="PE">Peru</option>
+                        <option title="591" value="BO">Bolivia</option>
+                        <option title="595" value="PY">Paraguay</option>
+                        <option title="55" value="BR">Brazil</option>
+                        <option title="598" value="UY">Uruguay</option>
+                        <option title="56" value="CL">Chile</option>
+                    </select>
+                    <span class="area">+86</span>
+                    <span class="error"><b>*</b><span></span></span>
+                </div>
+                <div class="input-box email">
+                    <span class="span-title"><b>*</b>电子邮箱</span>
+                    <input type="text" placeholder="请输入邮箱以接收账户信息">
+                    <span class="error"><b>*</b><span></span></span>
+                </div>
+                <div class="input-box phone">
+                    <span class="span-title"><b>*</b>手机号</span>
+                    <input type="text" placeholder="请输入手机号以接收账户信息">
+                    <span class="error"><b>*</b><span></span></span>
+                </div>
+                <div class="input-box key">
+                    <span class="span-title"><b>*</b>激活码</span>
+                    <input type="text" placeholder="如无请咨询客户经理">
+                    <span class="error"><b>*</b><span></span></span>
+                </div>
+                <div class="input-box code">
+                    <span class="span-title"><b>*</b>验证码</span>
+                    <input type="text" placeholder="请输入验证码">
+                    <a href="javascript:;">获取验证码</a>
+                    <span class="error"><b>*</b><span></span></span>
+                </div>
+                <div class="input-box agreement">
+                    <span class="span-title"></span>
+                    <input type="checkbox">
+                    <span class="agreement-span active">我已阅读并同意</span><a href="javascript:;">《法律信息及协议条款》</a>
+                </div>
+                <a href="javascript:;" class="register-btn">立即注册</a>
+                <span class="link">已有账户，<a href="javascript:;">立即登录>></a></span>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('select[name="country"]').on('change',function(){
+                var title = $(this).find('option:selected').attr('title');
+                $('.area').text('+'+title);
+            })
+            $(".agreement .agreement-span").click(function () {
+                $(this).toggleClass("active");
+            })
+
+            // 表单判断
+            // 姓名判断
+            $(".input-box.name input").on('blur input propertychange',function () {
+                var re = /^[\u4E00-\u9FA5]+$/;
+                if ($(this).val() == '') {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("真实姓名不能为空");
+                    return false;
+                } else if (!re.test($(this).val())) {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("真实姓名不正确");
+                    return false;
+                } else {
+                    $(this).parent().removeClass("warning");
+                    $(this).parent().find("span.error span").text("");
+                    return true;
+                }
+            })
+
+            // 邮箱判断
+            $(".input-box.email input").on('blur input propertychange',function () {
+                var re = /^[a-zA-Z0-9_-]+@([a-zA-Z0-9]+\.)+(com|cn|net|org)$/;
+                if ($(this).val() == '') {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("邮箱不能为空");
+                    return false;
+                } else if (!re.test($(this).val())) {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("邮箱不正确");
+                    return false;
+                } else {
+                    $(this).parent().removeClass("warning");
+                    $(this).parent().find("span.error span").text("");
+                    return true;
+                }
+            })
+
+            // 手机判断
+            $(".input-box.phone input").on('blur input propertychange',function () {
+                var re = /^[1][3,4,5,7,8][0-9]{9}$/;
+                if ($(this).val() == '') {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("手机号码不能为空");
+                    return false;
+                } else if (!re.test($(this).val())) {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("手机号码不正确");
+                    return false;
+                } else {
+                    $(this).parent().removeClass("warning");
+                    $(this).parent().find("span.error span").text("");
+                    return true;
+                }
+            })
+
+            // 激活码判断
+            $(".input-box.key input").on('blur input propertychange',function () {
+                var re = /^\d{4}$/;
+                if ($(this).val() == '') {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("激活码不能为空");
+                    return false;
+                } else if (!re.test($(this).val())) {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("激活码不正确");
+                    return false;
+                } else {
+                    $(this).parent().removeClass("warning");
+                    $(this).parent().find("span.error span").text("");
+                    return true;
+                }
+            })
+
+            // 验证码判断
+            $(".input-box.code input").on('blur input propertychange',function () {
+                var re = /^[A-Za-z0-9]+$/;
+                if ($(this).val() == '') {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("验证码不能为空");
+                    return false;
+                } else if (!re.test($(this).val())) {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("验证码不正确");
+                    return false;
+                } else {
+                    $(this).parent().removeClass("warning");
+                    $(this).parent().find("span.error span").text("");
+                    return true;
+                }
+            })
+
+            $(".register-btn").click(checkAll);
+
+            function checkAll() {
+                $(".input-box input").trigger("blur");
+                if($(".input-box").hasClass("warning")) {
+                    alert("请确认表单信息");
+                    return false;
+                } else {
+                    alert("success");
+                }
+            }
+        })
+        
+    </script>
+</body>
+</html>

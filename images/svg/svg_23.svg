@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg enable-background="new 0 0 60 60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style type="text/css">.st0{clip-path:url(#g);} .st1{clip-path:url(#f);fill:#FFFFFF;} .st2{clip-path:url(#c);} .st3{clip-path:url(#b);fill:#FFFFFF;} .st4{clip-path:url(#ai);} .st5{clip-path:url(#ah);fill:#ED1C24;} .st6{clip-path:url(#ae);} .st7{clip-path:url(#ad);fill:#ED1C24;} .st8{clip-path:url(#aa);} .st9{clip-path:url(#y);fill:#ED1C24;} .st10{clip-path:url(#v);} .st11{clip-path:url(#u);fill:#ED1C24;} .st12{clip-path:url(#r);} .st13{clip-path:url(#q);fill:#ED1C24;} .st14{clip-path:url(#m);} .st15{clip-path:url(#l);fill:#ED1C24;} .st16{clip-path:url(#i);} .st17{clip-path:url(#h);fill:#ED1C24;}</style>
+  <defs>
+    <path id="z" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="o" d="m30 0.5c3.8 0 7.3 1.6 9.8 4.1s4.1 6 4.1 9.8v15.1c0 3.8-1.6 7.3-4.1 9.8s-6 4.1-9.8 4.1-7.3-1.6-9.8-4.1-4.1-6-4.1-9.8v-15.1c0-3.8 1.6-7.3 4.1-9.8s6-4.1 9.8-4.1m8.4 5.5c-2.2-2.2-5.1-3.5-8.4-3.5s-6.3 1.3-8.4 3.5c-2.2 2.2-3.5 5.1-3.5 8.4v15.1c0 3.3 1.3 6.3 3.5 8.4 2.2 2.2 5.1 3.5 8.4 3.5s6.3-1.3 8.4-3.5c2.2-2.2 3.5-5.1 3.5-8.4v-15.1c0-3.2-1.3-6.2-3.5-8.4"/>
+  </defs>
+  <clipPath id="g">
+    <use overflow="visible" xlink:href="#z"/>
+  </clipPath>
+  <clipPath id="f" class="st0">
+    <use overflow="visible" xlink:href="#o"/>
+  </clipPath>
+  <path class="st1" d="M11.1-4.5H49v53H11.1z"/>
+  <defs>
+    <path id="e" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="d" d="M17.1 16.5H29v-15h2v15h11.9v2H17.1v-2z"/>
+  </defs>
+  <clipPath id="c">
+    <use overflow="visible" xlink:href="#e"/>
+  </clipPath>
+  <clipPath id="b" class="st2">
+    <use overflow="visible" xlink:href="#d"/>
+  </clipPath>
+  <path class="st3" d="M12.1-3.5H48v27H12.1z"/>
+  <defs>
+    <path id="a" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="aj" d="M9 19.5c0-.6.4-1 1-1s1 .4 1 1v28c0 .6-.4 1-1 1s-1-.4-1-1v-28z"/>
+  </defs>
+  <clipPath id="ai">
+    <use overflow="visible" xlink:href="#a"/>
+  </clipPath>
+  <clipPath id="ah" class="st4">
+    <use overflow="visible" xlink:href="#aj"/>
+  </clipPath>
+  <path class="st5" d="M4 13.5h12v40H4z"/>
+  <defs>
+    <path id="ag" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="af" d="M49 19.5c0-.6.4-1 1-1s1 .4 1 1v28c0 .6-.4 1-1 1s-1-.4-1-1v-28z"/>
+  </defs>
+  <clipPath id="ae">
+    <use overflow="visible" xlink:href="#ag"/>
+  </clipPath>
+  <clipPath id="ad" class="st6">
+    <use overflow="visible" xlink:href="#af"/>
+  </clipPath>
+  <path class="st7" d="M44 13.5h12v40H44z"/>
+  <defs>
+    <path id="ac" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="ab" d="M15 43.5c0-.6.4-1 1-1s1 .4 1 1v8c0 .6-.4 1-1 1s-1-.4-1-1v-8z"/>
+  </defs>
+  <clipPath id="aa">
+    <use overflow="visible" xlink:href="#ac"/>
+  </clipPath>
+  <clipPath id="y" class="st8">
+    <use overflow="visible" xlink:href="#ab"/>
+  </clipPath>
+  <path class="st9" d="M10 37.5h12v20H10z"/>
+  <defs>
+    <path id="x" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="w" d="M22 45.5c0-.6.4-1 1-1s1 .4 1 1v10.1c0 .6-.4 1-1 1s-1-.4-1-1V45.5z"/>
+  </defs>
+  <clipPath id="v">
+    <use overflow="visible" xlink:href="#x"/>
+  </clipPath>
+  <clipPath id="u" class="st10">
+    <use overflow="visible" xlink:href="#w"/>
+  </clipPath>
+  <path class="st11" d="M17 39.5h12v22.1H17z"/>
+  <defs>
+    <path id="t" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="s" d="M29 46.5c0-.6.4-1 1-1s1 .4 1 1v12c0 .6-.4 1-1 1s-1-.4-1-1v-12z"/>
+  </defs>
+  <clipPath id="r">
+    <use overflow="visible" xlink:href="#t"/>
+  </clipPath>
+  <clipPath id="q" class="st12">
+    <use overflow="visible" xlink:href="#s"/>
+  </clipPath>
+  <path class="st13" d="M24 40.5h12v24H24z"/>
+  <defs>
+    <path id="p" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="n" d="M43 43.5c0-.6.4-1 1-1s1 .4 1 1v8c0 .6-.4 1-1 1s-1-.4-1-1v-8z"/>
+  </defs>
+  <clipPath id="m">
+    <use overflow="visible" xlink:href="#p"/>
+  </clipPath>
+  <clipPath id="l" class="st14">
+    <use overflow="visible" xlink:href="#n"/>
+  </clipPath>
+  <path class="st15" d="M38 37.5h12v20H38z"/>
+  <defs>
+    <path id="k" d="M9 .5h42v59H9z"/>
+  </defs>
+  <defs>
+    <path id="j" d="M36 45.5c0-.6.4-1 1-1s1 .4 1 1v10.1c0 .6-.4 1-1 1s-1-.4-1-1V45.5z"/>
+  </defs>
+  <clipPath id="i">
+    <use overflow="visible" xlink:href="#k"/>
+  </clipPath>
+  <clipPath id="h" class="st16">
+    <use overflow="visible" xlink:href="#j"/>
+  </clipPath>
+  <path class="st17" d="M31 39.5h12v22.1H31z"/>
+</svg>

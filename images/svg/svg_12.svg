@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg enable-background="new 0 0 60 60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style type="text/css">.st0{clip-path:url(#g);} .st1{clip-path:url(#f);fill:#FFFFFF;} .st2{clip-path:url(#c);} .st3{clip-path:url(#b);fill:#FFFFFF;} .st4{clip-path:url(#k);} .st5{clip-path:url(#j);fill:#ED1C24;}</style>
+  <defs>
+    <path id="i" d="M2 9h56v42H2z"/>
+  </defs>
+  <defs>
+    <path id="h" d="M3 38h13v12H2V38h1zm21 0h13v12H23V38h1zm1 10h10v-8H25v8zm20-10h13v12H44V38h1zm1 10h10v-8H46v8zM4 48h10v-8H4v8z"/>
+  </defs>
+  <clipPath id="g">
+    <use overflow="visible" xlink:href="#i"/>
+  </clipPath>
+  <clipPath id="f" class="st0">
+    <use overflow="visible" xlink:href="#h"/>
+  </clipPath>
+  <path class="st1" d="M-3 33h66v22H-3z"/>
+  <defs>
+    <path id="e" d="M2 9h56v42H2z"/>
+  </defs>
+  <defs>
+    <path id="d" d="M24 10h13v12H23V10h1zm1 10h10v-8H25v8z"/>
+  </defs>
+  <clipPath id="c">
+    <use overflow="visible" xlink:href="#e"/>
+  </clipPath>
+  <clipPath id="b" class="st2">
+    <use overflow="visible" xlink:href="#d"/>
+  </clipPath>
+  <path class="st3" d="M18 5h24v22H18z"/>
+  <defs>
+    <path id="a" d="M2 9h56v42H2z"/>
+  </defs>
+  <defs>
+    <path id="l" d="M29 32H10v11.9H8V30h21V17.1h2V30h21v13.9h-2V32H31v12h-2V32z"/>
+  </defs>
+  <clipPath id="k">
+    <use overflow="visible" xlink:href="#a"/>
+  </clipPath>
+  <clipPath id="j" class="st4">
+    <use overflow="visible" xlink:href="#l"/>
+  </clipPath>
+  <path class="st5" d="M3 12.1h54.1V49H3z"/>
+</svg>

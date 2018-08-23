@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+    <div class="container login">
+        <a href="javascript:;" class="logo"></a>
+        <div class="login-box">
+            <h4>登录用户中心</h4>
+            <div class="input-box username-input">
+                <input type="text" placeholder="账户">
+                <span class="error"><b>*</b><span></span></span>
+            </div>
+            <div class="input-box password-input">
+                <input type="password" placeholder="密码">
+                <span class="error"><b>*</b><span></span></span>
+            </div>
+            <a href="javascript:;" class="login-btn">登录</a>
+        </div>
+        <span class="link">还没有账户？<a href="javascript:;">马上注册</a></span>
+    </div>
+    <script>
+        $(function () {
+            // 账户判断
+            $(".input-box.username-input input").on('blur input propertychange',function () {
+                if ($(this).val() == '') {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("账户不能为空");
+                    return false;
+                } else {
+                    $(this).parent().removeClass("warning");
+                    $(this).parent().find("span.error span").text("");
+                    return true;
+                }
+            })
+            // 密码判断
+            $(".input-box.password-input input").on('blur input propertychange',function () {
+                if ($(this).val() == '') {
+                    $(this).parent().addClass("warning");
+                    $(this).parent().find("span.error span").text("密码不能为空");
+                    return false;
+                } else {
+                    $(this).parent().removeClass("warning");
+                    $(this).parent().find("span.error span").text("");
+                    return true;
+                }
+            })
+            function checkAll() {
+                $(".input-box input").trigger("blur");
+                if($(".input-box").hasClass("warning")) {
+                    alert("请确认表单信息");
+                    return false;
+                } else {
+                    alert("success");
+                }
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg enable-background="new 0 0 60 60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style type="text/css">.st0{clip-path:url(#aj);} .st1{clip-path:url(#y);fill:#FFFFFF;} .st2{clip-path:url(#c);} .st3{clip-path:url(#b);fill:#FFFFFF;} .st4{clip-path:url(#bo);} .st5{clip-path:url(#bn);fill:#ED1C24;} .st6{clip-path:url(#bl);fill:#FFFFFF;} .st7{clip-path:url(#bj);fill:#ED1C24;} .st8{clip-path:url(#bh);fill:#FFFFFF;} .st9{clip-path:url(#be);fill:#FFFFFF;} .st10{clip-path:url(#bc);fill:#FFFFFF;} .st11{clip-path:url(#ba);fill:#ED1C24;} .st12{clip-path:url(#ay);fill:#FFFFFF;} .st13{clip-path:url(#aw);fill:#FFFFFF;} .st14{clip-path:url(#at);fill:#FFFFFF;} .st15{clip-path:url(#ar);fill:#FFFFFF;} .st16{clip-path:url(#ap);fill:#FFFFFF;} .st17{clip-path:url(#an);fill:#FFFFFF;} .st18{clip-path:url(#al);fill:#FFFFFF;} .st19{clip-path:url(#ai);fill:#FFFFFF;} .st20{clip-path:url(#ag);fill:#FFFFFF;} .st21{clip-path:url(#ae);fill:#ED1C24;} .st22{clip-path:url(#ac);fill:#FFFFFF;} .st23{clip-path:url(#aa);fill:#ED1C24;} .st24{clip-path:url(#x);fill:#FFFFFF;} .st25{clip-path:url(#v);fill:#FFFFFF;} .st26{clip-path:url(#t);fill:#FFFFFF;} .st27{clip-path:url(#r);fill:#FFFFFF;} .st28{clip-path:url(#p);fill:#FFFFFF;} .st29{clip-path:url(#m);fill:#FFFFFF;} .st30{clip-path:url(#k);fill:#FFFFFF;} .st31{clip-path:url(#i);fill:#FFFFFF;} .st32{clip-path:url(#g);fill:#FFFFFF;} .st33{clip-path:url(#e);fill:#FFFFFF;}</style>
+  <defs>
+    <path id="bf" d="M4 9h53v41H4z"/>
+  </defs>
+  <defs>
+    <path id="au" d="m35 12.1h-29v29.9h18v2h-20l0.1-34h32.9v6h-2v-3.9z"/>
+  </defs>
+  <clipPath id="aj">
+    <use overflow="visible" xlink:href="#bf"/>
+  </clipPath>
+  <clipPath id="y" class="st0">
+    <use overflow="visible" xlink:href="#au"/>
+  </clipPath>
+  <path class="st1" d="M-1 5h43v44H-1z"/>
+  <defs>
+    <path id="n" d="M4 9h53v41H4z"/>
+  </defs>
+  <defs>
+    <path id="d" d="M29 14v2h2v-2h2v2h2v-2h2v2h2v-2h2v2h2v-2h2v2h2v-2h2v2h2v-2h2v2h4v33.1H23V16h4v-2h2zm0 4v2h-2v-2h-2v5h30v-5h-2v2h-2v-2h-2v2h-2v-2h-2v2h-2v-2h-2v2h-2v-2h-2v2h-2v-2h-2v2h-2v-2h-2zm-4 29.1h30V25H25v22.1z"/>
+  </defs>
+  <clipPath id="c">
+    <use overflow="visible" xlink:href="#n"/>
+  </clipPath>
+  <clipPath id="b" class="st2">
+    <use overflow="visible" xlink:href="#d"/>
+  </clipPath>
+  <path class="st3" d="M18 9h44v45H18z"/>
+  <defs>
+    <path id="a" d="M4 9h53v41H4z"/>
+  </defs>
+  <defs>
+    <path id="bp" d="M9.7 33l5.6-7.6.7-1 .9 1 3.1 4.1 3-3.6V29l-2.2 2.7-.8.9-.8-.9-3.1-4-4 5.3H9.7z"/>
+  </defs>
+  <clipPath id="bo">
+    <use overflow="visible" xlink:href="#a"/>
+  </clipPath>
+  <clipPath id="bn" class="st4">
+    <use overflow="visible" xlink:href="#bp"/>
+  </clipPath>
+  <path class="st5" d="M4.7 19.4H28V38H4.7z"/>
+  <defs>
+    <path id="bm" d="m27 28h2v2h-2z"/>
+  </defs>
+  <clipPath id="bl">
+    <use overflow="visible" xlink:href="#bm"/>
+  </clipPath>
+  <path class="st6" d="M22 23h12v12H22z"/>
+  <defs>
+    <path id="bk" d="m31 28h2v2h-2z"/>
+  </defs>
+  <clipPath id="bj">
+    <use overflow="visible" xlink:href="#bk"/>
+  </clipPath>
+  <path class="st7" d="M26 23h12v12H26z"/>
+  <defs>
+    <path id="bi" d="m35 28h2v2h-2z"/>
+  </defs>
+  <clipPath id="bh">
+    <use overflow="visible" xlink:href="#bi"/>
+  </clipPath>
+  <path class="st8" d="M30 23h12v12H30z"/>
+  <defs>
+    <path id="bg" d="m39.1 28h2v2h-2z"/>
+  </defs>
+  <clipPath id="be">
+    <use overflow="visible" xlink:href="#bg"/>
+  </clipPath>
+  <path class="st9" d="m34.1 23h12v12h-12z"/>
+  <defs>
+    <path id="bd" d="m43.1 28h2v2h-2z"/>
+  </defs>
+  <clipPath id="bc">
+    <use overflow="visible" xlink:href="#bd"/>
+  </clipPath>
+  <path class="st10" d="m38.1 23h12v12h-12z"/>
+  <defs>
+    <path id="bb" d="m47 28h2v2h-2z"/>
+  </defs>
+  <clipPath id="ba">
+    <use overflow="visible" xlink:href="#bb"/>
+  </clipPath>
+  <path class="st11" d="M42 23h12v12H42z"/>
+  <defs>
+    <path id="az" d="m51 28h2v2h-2z"/>
+  </defs>
+  <clipPath id="ay">
+    <use overflow="visible" xlink:href="#az"/>
+  </clipPath>
+  <path class="st12" d="M46 23h12v12H46z"/>
+  <defs>
+    <path id="ax" d="m27 32h2v2h-2z"/>
+  </defs>
+  <clipPath id="aw">
+    <use overflow="visible" xlink:href="#ax"/>
+  </clipPath>
+  <path class="st13" d="M22 27h12v12H22z"/>
+  <defs>
+    <path id="av" d="m27 36h2v2h-2z"/>
+  </defs>
+  <clipPath id="at">
+    <use overflow="visible" xlink:href="#av"/>
+  </clipPath>
+  <path class="st14" d="M22 31h12v12H22z"/>
+  <defs>
+    <path id="as" d="m27 40h2v2h-2z"/>
+  </defs>
+  <clipPath id="ar">
+    <use overflow="visible" xlink:href="#as"/>
+  </clipPath>
+  <path class="st15" d="M22 35h12v12H22z"/>
+  <defs>
+    <path id="aq" d="m31 32h2v2h-2z"/>
+  </defs>
+  <clipPath id="ap">
+    <use overflow="visible" xlink:href="#aq"/>
+  </clipPath>
+  <path class="st16" d="M26 27h12v12H26z"/>
+  <defs>
+    <path id="ao" d="m31 36h2v2h-2z"/>
+  </defs>
+  <clipPath id="an">
+    <use overflow="visible" xlink:href="#ao"/>
+  </clipPath>
+  <path class="st17" d="M26 31h12v12H26z"/>
+  <defs>
+    <path id="am" d="m31 40h2v2h-2z"/>
+  </defs>
+  <clipPath id="al">
+    <use overflow="visible" xlink:href="#am"/>
+  </clipPath>
+  <path class="st18" d="M26 35h12v12H26z"/>
+  <defs>
+    <path id="ak" d="m35 32h2v2h-2z"/>
+  </defs>
+  <clipPath id="ai">
+    <use overflow="visible" xlink:href="#ak"/>
+  </clipPath>
+  <path class="st19" d="M30 27h12v12H30z"/>
+  <defs>
+    <path id="ah" d="m35 36h2v2h-2z"/>
+  </defs>
+  <clipPath id="ag">
+    <use overflow="visible" xlink:href="#ah"/>
+  </clipPath>
+  <path class="st20" d="M30 31h12v12H30z"/>
+  <defs>
+    <path id="af" d="m35 40h2v2h-2z"/>
+  </defs>
+  <clipPath id="ae">
+    <use overflow="visible" xlink:href="#af"/>
+  </clipPath>
+  <path class="st21" d="M30 35h12v12H30z"/>
+  <defs>
+    <path id="ad" d="m39.1 32h2v2h-2z"/>
+  </defs>
+  <clipPath id="ac">
+    <use overflow="visible" xlink:href="#ad"/>
+  </clipPath>
+  <path class="st22" d="m34.1 27h12v12h-12z"/>
+  <defs>
+    <path id="ab" d="m39.1 36h2v2h-2z"/>
+  </defs>
+  <clipPath id="aa">
+    <use overflow="visible" xlink:href="#ab"/>
+  </clipPath>
+  <path class="st23" d="m34.1 31h12v12h-12z"/>
+  <defs>
+    <path id="z" d="m39.1 40h2v2h-2z"/>
+  </defs>
+  <clipPath id="x">
+    <use overflow="visible" xlink:href="#z"/>
+  </clipPath>
+  <path class="st24" d="m34.1 35h12v12h-12z"/>
+  <defs>
+    <path id="w" d="m43.1 32h2v2h-2z"/>
+  </defs>
+  <clipPath id="v">
+    <use overflow="visible" xlink:href="#w"/>
+  </clipPath>
+  <path class="st25" d="m38.1 27h12v12h-12z"/>
+  <defs>
+    <path id="u" d="m43.1 36h2v2h-2z"/>
+  </defs>
+  <clipPath id="t">
+    <use overflow="visible" xlink:href="#u"/>
+  </clipPath>
+  <path class="st26" d="m38.1 31h12v12h-12z"/>
+  <defs>
+    <path id="s" d="m43.1 40h2v2h-2z"/>
+  </defs>
+  <clipPath id="r">
+    <use overflow="visible" xlink:href="#s"/>
+  </clipPath>
+  <path class="st27" d="m38.1 35h12v12h-12z"/>
+  <defs>
+    <path id="q" d="m47 32h2v2h-2z"/>
+  </defs>
+  <clipPath id="p">
+    <use overflow="visible" xlink:href="#q"/>
+  </clipPath>
+  <path class="st28" d="M42 27h12v12H42z"/>
+  <defs>
+    <path id="o" d="m47 36h2v2h-2z"/>
+  </defs>
+  <clipPath id="m">
+    <use overflow="visible" xlink:href="#o"/>
+  </clipPath>
+  <path class="st29" d="M42 31h12v12H42z"/>
+  <defs>
+    <path id="l" d="m47 40h2v2h-2z"/>
+  </defs>
+  <clipPath id="k">
+    <use overflow="visible" xlink:href="#l"/>
+  </clipPath>
+  <path class="st30" d="M42 35h12v12H42z"/>
+  <defs>
+    <path id="j" d="m51 32h2v2h-2z"/>
+  </defs>
+  <clipPath id="i">
+    <use overflow="visible" xlink:href="#j"/>
+  </clipPath>
+  <path class="st31" d="M46 27h12v12H46z"/>
+  <defs>
+    <path id="h" d="m51 36h2v2h-2z"/>
+  </defs>
+  <clipPath id="g">
+    <use overflow="visible" xlink:href="#h"/>
+  </clipPath>
+  <path class="st32" d="M46 31h12v12H46z"/>
+  <defs>
+    <path id="f" d="m51 40h2v2h-2z"/>
+  </defs>
+  <clipPath id="e">
+    <use overflow="visible" xlink:href="#f"/>
+  </clipPath>
+  <path class="st33" d="M46 35h12v12H46z"/>
+</svg>
