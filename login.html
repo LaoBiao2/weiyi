@@ -51,6 +51,7 @@
                     return true;
                 }
             })
+            $(".login-btn").click(checkAll);
             function checkAll() {
                 $(".input-box input").trigger("blur");
                 if($(".input-box").hasClass("warning")) {
