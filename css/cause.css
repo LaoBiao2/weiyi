@@ -1,0 +1,119 @@
+.header{
+    top:5px;
+    background-color:transparent;
+}
+
+
+.cause{
+    width: 100%;
+    height: 2256px;
+    overflow: hidden;
+    background: url(../images/cause/cause_bg.jpg) no-repeat center;
+}
+.cause .content-s{
+    position: relative;
+    height: 100%;
+}
+.cause .txt{
+    position: absolute;
+    left: 50%;
+    width: 660px;
+}
+.cause .txt h4{
+    font-size: 36px;
+    color: #de4425;
+    margin-bottom: 35px;
+}
+.cause .txt p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 28px;
+}
+.cause .img{
+    position: absolute;
+}
+.cause .left{
+    margin-left: -580px;
+}
+.cause .right{
+    margin-left: -13px;
+}
+
+.cause .ci1 .txt{
+    top: 105px;
+}
+.cause .ci1 .img{
+    right: 28px;
+    top: 100px;
+}
+
+.cause .ci2 .txt{
+    top: 580px;
+}
+.cause .ci2 .img{
+    left:17px ;
+    top: 507px;
+}
+
+.cause .ci3 .txt{
+    top: 999px;
+}
+.cause .ci3 .img{
+    right:-127px ;
+    top: 953px;
+}
+
+.cause .ci4 .txt{
+    top: 1427px;
+}
+.cause .ci4 .img{
+    left:5px ;
+    top: 1307px;
+}
+
+.cause .ci5 .txt{
+    top: 1879px;
+}
+.cause .ci5 .img{
+    right: -165px ;
+    top: 1794px;
+}
+
+.next{
+    width: 100%;
+    height: 213px;
+    padding-top: 47px;
+    background: url(../images/cause/next_bg.jpg) no-repeat center;
+}
+.next h4{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 62px;
+}
+.next .btn{
+    text-align: center;
+    font-size: 0;
+}
+.next .btn a{
+    display: inline-block;
+    width: 166px;
+    height: 40px;
+    font-size: 16px;
+    color: #fffefe;
+    line-height: 40px;
+    margin: 0 40px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.next .btn .mt4_btn{
+    border-color: #ffffff;
+}
+.next .btn .register_btn{
+    color: #191818;
+    background: -webkit-linear-gradient(left, #eaeaea , #ffffff); 
+    background: -o-linear-gradient(right, #eaeaea , #ffffff); 
+    background: -moz-linear-gradient(right, #eaeaea , #ffffff); 
+    background: linear-gradient(to right,  #eaeaea , #ffffff);
+    background: #ffffff/0;
+}

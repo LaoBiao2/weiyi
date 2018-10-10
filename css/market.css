@@ -1,0 +1,276 @@
+body{
+    background: #f5f5f5;
+}
+.sift{
+    width: 1010px;
+    padding-top: 40px;
+    margin: 0 auto 30px auto;
+}
+.sift .item{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.sift .nr{
+    margin-right: 0;
+}
+.sift .item:last-child{
+    margin-right: 0;
+}
+.sift .item img{
+    display: block;
+}
+.sift .item .txt{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    color: #ffffff;
+    /* background:rgba(0,0,0,0.6);  */
+    background: url(../images/market/block_bg.png) repeat;
+}
+.sift .one .txt{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sift .one .txt a{
+    padding-left: 25px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sift .two .txt .con{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+    height: 60px;
+}
+.sift .two .txt a{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+
+.market{
+    width: 1010px;
+    margin: 0 auto 30px auto;
+}
+.market .list{
+    width: 760px;
+}
+.market .list .item{
+    margin-bottom: 20px;
+}
+.market .list .item .img{
+    float: left;
+    width: 225px;
+    height: 190px;
+}
+.market .list .item .img img{
+    display: block;
+    max-width: 100%;
+}
+.market .list .item .txt{
+    position: relative;
+    float: right;
+    width: 485px;
+    height: 177px;
+    padding: 13px 30px 0 20px;
+    background: #ffffff;
+}
+.market .list .item .txt h4 a{
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 34px;
+}
+.market .list .item .txt p a{
+    font-size: 16px;
+    height: 54px;
+    color: #666666;
+    line-height: 28px;
+    margin-top: 5px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.market .list .item .txt .attribute{
+    position: absolute;
+    bottom: 15px;
+    width: 485px;
+}
+.market .list .item .txt .attribute span{
+    font-size: 14px;
+    color: #666666;
+}
+.market .list .item .txt p a:hover,
+.market .list .item .txt h4 a:hover{
+    color: #da4023;
+    transition: all .3s;
+}
+
+.recommend{
+    width: 230px;
+}
+.recommend .box{
+    padding: 20px 17px 28px 13px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+.recommend .box h4{
+    font-size: 16px;
+    color: #151515;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.recommend .box li{
+    padding: 15px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+}
+.recommend .box li a{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    max-height: 48px;
+    color: #666666;
+    line-height: 24px;   
+}
+.recommend .box li a:hover{
+    color: #da4023;
+    transition: all .3s;
+}
+.news_con{
+    padding-top: 40px;
+}
+.market .article{
+    position: relative;
+    width:555px;
+    padding: 35px 93px 95px 112px;
+    background: #ffffff;
+}
+.market .article .tit{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 30px;
+}
+.market .article .tit h1{
+    font-size: 24px;
+    color: #151515;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+.market .article .tit span{
+    float: right;
+    font-size: 14px;
+    color: #666666;
+}
+.market .article .type{
+    position: absolute;
+    left: -14px;
+    top: 29px;
+    width: 101px;
+    height: 53px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 62px;
+    background: url(../images/market/type_icon.png) no-repeat;
+}
+.market .article .txt,
+.market .article .txt p,
+.market .article .txt span,
+.market .article .txt strong{
+    font-size: 16px;
+    color: #333333;
+    line-height: 28px;
+    font-weight: normal;
+}
+.market .article .txt p{
+    margin-bottom: 30px;
+}
+.market .article .txt imh{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.market .article .tag{
+    margin: 15px 0 20px 0;;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.market .article .tag span{
+    float: left;
+    width: 55px;
+    font-size: 14px;
+    color: #333333;
+}
+.market .article .tag .box{
+    float: right;
+    width: 500px;
+}
+.market .article .tag a{
+    float: left;
+    padding: 3px 8px;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 20px 10px 0;
+}
+.market .article .tag .t1{
+    background: #279acb;
+}
+.market .article .tag .t2{
+    background: #2c8577;
+}
+.market .article .tag .t3{
+    background: #3678d2;
+}
+.market .article .tag .t4{
+    background: #ad2e22;
+}
+
+.market .operate a{
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #666666;
+}
+.market .operate a:hover{
+    color: #da4023;
+    transition: all .3s;
+}
+.market .operate i{
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    background: url(../images/market/operate_icon.png) no-repeat;
+}
+.market .operate .next i{
+    background-position: -6px 0;
+    margin-left: 15px; 
+}
+.market .operate .prev i{
+    margin-right: 15px;
+    background-position: 0px 0; 
+}
