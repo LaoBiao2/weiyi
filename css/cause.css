@@ -100,20 +100,36 @@
     width: 166px;
     height: 40px;
     font-size: 16px;
-    color: #fffefe;
+    color: #fff;
     line-height: 40px;
     margin: 0 40px;
-    border: 1px solid transparent;
+    border: 1px solid #fff;
     border-radius: 4px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .next .btn .mt4_btn{
     border-color: #ffffff;
 }
 .next .btn .register_btn{
     color: #191818;
-    background: -webkit-linear-gradient(left, #eaeaea , #ffffff); 
+    /* background: -webkit-linear-gradient(left, #eaeaea , #ffffff); 
     background: -o-linear-gradient(right, #eaeaea , #ffffff); 
     background: -moz-linear-gradient(right, #eaeaea , #ffffff); 
-    background: linear-gradient(to right,  #eaeaea , #ffffff);
-    background: #ffffff/0;
+    background: linear-gradient(to right,  #eaeaea , #ffffff); */
+    background: #ffffff;
+}
+
+.next .btn .mt4_btn:hover {
+    background-color: #fff;
+    color: #cf4d35;
+}
+
+.next .btn .register_btn:hover {
+    background: #cf4d35;
+    color: #fff;
+    border-color: #fff;
 }

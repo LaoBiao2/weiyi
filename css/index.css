@@ -1,9 +1,3 @@
-.gradualChangeBg {
-    background:#bc3326;
-    background:-moz-linear-gradient(left, #bc3326, #df4425);  
-    background:-webkit-gradient(linear,left 0, right 0, from(#bc3326), to(#df4425));  
-    background:-o-linear-gradient(left, #bc3326, #df4425);
-}
 /* banner */
 .banner {
     position: relative;
@@ -49,7 +43,15 @@
     border-radius: 4px;
     font-size: 18px;
     color: #fff;
+    position: relative;
+    background:#df4425;
 }
+.banner .slider-banner .slider .txt a span {
+    width: 155px;
+    height: 46px;
+}
+
+
 .banner .notice {
     width: 100%;
     height: 48px;
@@ -145,12 +147,31 @@
     box-sizing: border-box;
     color: #fff;
     float: left;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .b1 .operation li.o-download {
     background-color: #da4023;
 }
 .b1 .operation li.o-register {
     background-color: #252429;
+}
+.b1 .operation li.bigger {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+.b1 .operation li.smaller {
+    transform: scale(0.97);
+    -webkit-transform: scale(0.97);
+    -moz-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    -o-transform: scale(0.97);
 }
 .b1 .operation li h4 {
     font-size: 32px;
@@ -178,15 +199,34 @@
     width: 107px;
     color: #000;
     background-color: #fff;
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+}
+.b1 .operation li.o-download .operation-btn:hover {
+    color: #da4023;
 }
 .b1 .operation li.o-register .operation-btn {
     width: 133px;
     color: #fff;
+    position: relative;
+    background: #df4425;
+}
+.b1 .operation li.o-register .operation-btn span {
+    width: 133px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
 }
 .b1 .operation li a.check-btn {
     font-size: 14px;
     color: #fff;
     line-height: 42px;
+}
+.b1 .operation li a.check-btn:hover {
+    border-bottom: 1px solid #fff;
 }
 
 .b2 {
@@ -250,6 +290,15 @@
     display: block;
     font-size: 16px;
     color: #8b8b8b;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.b2 .realtime a.readmore:hover {
+    background-color: #df4425;
+    color: #fff;
 }
 .b2 .realtime table tr:not(.tr-first) td {
     font-size: 16px;
@@ -352,7 +401,16 @@
     color: #fff;
     font-size: 14px;
     float: right;
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
 }
+.b3 .b3-top .title-div a:hover {
+    color: #ef4c2b;
+}
+
 .b3 .b3-top .left-div ul {
     padding: 0 8px;
     box-sizing: border-box;
@@ -410,6 +468,11 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .b3 .b3-top .left-div ul li a .txt p {
     margin-top: 11px;
@@ -420,6 +483,15 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.b3 .b3-top .left-div ul li a .txt h5:hover,
+.b3 .b3-top .left-div ul li a .txt p:hover {
+    color: #ef4c2b;
 }
 .b3 .b3-top .right-div {
     width: 828px;
@@ -445,9 +517,17 @@
 }
 .b3 .b3-top .right-div .title-div ul li a {
     font-size: 16px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .b3 .b3-top .right-div .title-div ul li:hover a,
-.b3 .b3-top .right-div .title-div ul li.active a {
+.b3 .b3-top .right-div .title-div ul li.active a,
+.b3 .b3-top .right-div .txt-box .txt h5:hover,
+.b3 .b3-top .right-div .txt-box .txt p:hover,
+.b3 .b3-top .right-div .txt-bottom ul li a:hover {
     color: #ef4c2b;
 }
 .b3 .b3-top .right-div .title-div ul i {
@@ -483,7 +563,6 @@
 .b3 .b3-top .right-div .txt-box .txt {
     float: left;
     width: 450px;
-    color: #fff;
 }
 .b3 .b3-top .right-div .txt-box .txt h5 {
     font-size: 16px;
@@ -492,6 +571,12 @@
     overflow: hidden;
     text-overflow:ellipsis;
     white-space: nowrap;
+    color: #fff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .b3 .b3-top .right-div .txt-box .txt p {
     line-height: 24px;
@@ -501,6 +586,12 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    color: #fff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .b3 .b3-top .right-div .txt-bottom {
     padding: 28px 0 38px;
@@ -526,6 +617,11 @@
     text-overflow:ellipsis;
     white-space: nowrap;
     margin-top: 40px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .b3 .b3-top .right-div .txt-bottom ul li:first-child a {
     margin-top: 0;
@@ -579,6 +675,15 @@
     font-size: 14px;
     color: #fff;
     border-radius: 4px;
+    position: relative;
+    background: #df4425;
+}
+.b3 .b3-bottom .slider-b3 .slider .txt a span {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
 }
 .b3 .b3-bottom .bx-pager {
     display: none;
@@ -592,10 +697,10 @@
     background: url(../images/other_icon.png) no-repeat -43px -25px;
 }
 .b3 .b3-bottom .bx-prev:hover {
-    background-position: 0 -25px;
+    background-position: 0 -61px;
 }
 .b3 .b3-bottom .bx-next:hover {
-    background-position: -43px -25px;
+    background-position: -43px -61px;
 }
 
 .b4 {
@@ -645,6 +750,25 @@
     height: 569px;
     background: url(../images/b4_img.png) no-repeat center;
     display: inline-block;
+    animation: floatAnimate 1.3s ease-in-out 2.7s infinite alternate;
+    -webkit-animation: floatAnimate 1.3s ease-in-out 2.7s infinite alternate;
+}
+
+@keyframes floatAnimate {
+    from {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+    }
+    to {
+        transform: translate(0, 10px);
+        -webkit-transform: translate(0, 10px);
+        -moz-transform: translate(0, 10px);
+        -ms-transform: translate(0, 10px);
+        -o-transform: translate(0, 10px);
+    }
 }
 .b4 a.download-btn {
     width: 174px;
@@ -657,4 +781,15 @@
     border-radius: 4px;
     display: block;
     margin: 0 auto;
+    position: relative;
+    background: #df4425;
+}
+
+.b4 a.download-btn span {
+    width: 174px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
 }

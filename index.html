@@ -206,8 +206,8 @@
                 </li>
             </ul>
             <div class="btn-div">
-                <a href="javascript:;" class="btn-a login-btn">登录</a>
-                <a href="javascript:;" class="btn-a register-btn">创建账户<span>创建账户</span></a>
+                <a href="javascript:;" class="btn-a login-btn gradualChangeBg">登录<span class="hover-hidden">登录</span></a>
+                <a href="javascript:;" class="btn-a register-btn">创建账户<span class="gradualChangeBg hover-hidden">创建账户</span></a>
             </div>
         </div>
     </div>
@@ -228,7 +228,7 @@
                     <div class="txt">
                         <h3>轻松将您的选择转换为未来 无限的价值</h3>
                         <p>差价合约行业中提供极具竞争力的点差和最理想的交易环境。投资差价合约交易，维亿将会是您的首选。</p>
-                        <a href="javascript:;" class="gradualChangeBg">了解详情</a>
+                        <a href="javascript:;" class="">了解详情<span class="gradualChangeBg hover-hidden">了解详情</span></a>
                     </div>
                 </div>
                 <div class="slider">
@@ -317,7 +317,7 @@
                             <br/>有竞争力的交易条件和广泛覆盖的交易资源。</p>
                         <span>继续并立即下载软件</span>
                         <div>
-                            <a href="javascript:;" class="operation-btn gradualChangeBg">软件下载</a>
+                            <a href="javascript:;" class="operation-btn">软件下载<span class="gradualChangeBg hover-hidden">软件下载</span></a>
                             <a href="javascript:;" class="check-btn">或查看操作指引</a>
                         </div>
                     </li>
@@ -531,11 +531,13 @@
                             <div class="txt-box">
                                 <div class="txt-top clearfix">
                                     <div class="img-bg">
-                                        <img src="./images/img1.jpg" alt="">
+                                        <a href="javascript:;"><img src="./images/img1.jpg" alt=""></a>
                                     </div>
                                     <div class="txt">
-                                        <h5>美国至5月25日当周API原油库存意外上涨 油市短线走低</h5>
-                                        <p>国际现货黄金5月30日开于1298.75美元/盎司，盘中最高价格为1302.96美元/盎司... </p>
+                                        <a href="javascript:">
+                                            <h5>美国至5月25日当周API原油库存意外上涨 油市短线走低</h5>
+                                            <p>国际现货黄金5月30日开于1298.75美元/盎司，盘中最高价格为1302.96美元/盎司... </p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="txt-bottom clearfix">
@@ -647,7 +649,7 @@
                             <div class="txt">
                                 <h3>英国宣布脱欧CPI年率再度放缓就业 指数上升</h3>
                                 <span>2018 05.28</span>
-                                <a href="javascript:;" class="gradualChangeBg">查看更多</a>
+                                <a href="javascript:;">查看更多<span class="gradualChangeBg hover-hidden">查看更多</span></a>
                             </div>
                         </div>
                         <div class="slider">
@@ -657,7 +659,7 @@
                             <div class="txt">
                                 <h3>英国宣布脱欧CPI年率再度放缓就业 指数上升</h3>
                                 <span>2018 05.28</span>
-                                <a href="javascript:;" class="gradualChangeBg">查看更多</a>
+                                <a href="javascript:;">查看更多<span class="gradualChangeBg hover-hidden">查看更多</span></a>
                             </div>
                         </div>
                         <div class="slider">
@@ -667,7 +669,7 @@
                             <div class="txt">
                                 <h3>英国宣布脱欧CPI年率再度放缓就业 指数上升</h3>
                                 <span>2018 05.28</span>
-                                <a href="javascript:;" class="gradualChangeBg">查看更多</a>
+                                <a href="javascript:;">查看更多<span class="gradualChangeBg hover-hidden">查看更多</span></a>
                             </div>
                         </div>
                         <div class="slider">
@@ -677,7 +679,7 @@
                             <div class="txt">
                                 <h3>英国宣布脱欧CPI年率再度放缓就业 指数上升</h3>
                                 <span>2018 05.28</span>
-                                <a href="javascript:;" class="gradualChangeBg">查看更多</a>
+                                <a href="javascript:;">查看更多<span class="gradualChangeBg hover-hidden">查看更多</span></a>
                             </div>
                         </div>
                     </div>
@@ -724,7 +726,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href="javascript:;" class="download-btn gradualChangeBg">下载 MetaTrader 4</a>
+                <a href="javascript:;" class="download-btn">下载 MetaTrader 4<span class="hover-hidden gradualChangeBg">下载 MetaTrader 4</span></a>
             </div>
         </div>
     </div>
@@ -738,6 +740,10 @@
                 moveSlides: 1,
                 slideMargin: 10,
             });
+            $(".b1 .operation li").hover(function () {
+                $(this).toggleClass("bigger");
+                $(this).siblings().toggleClass("smaller");
+            })
             $('.slider-b2').bxSlider({
                 slideWidth: 358,
                 // minSlides: 4,
