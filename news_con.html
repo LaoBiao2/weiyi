@@ -31,25 +31,26 @@
                 <div class="tag clearfix">
                     <span>TAG</span>
                     <div class="box clearfix">
-                        <a href="" class="t1">美元升跌</a>
-                        <a href="" class="t2">脱欧谈判</a>
-                        <a href="" class="t3">英国脱欧</a>
-                        <a href="" class="t1">美元升跌</a>
-                        <a href="" class="t2">脱欧谈判</a>
-                        <a href="" class="t3">英国脱欧</a>
-                        <a href="" class="t1">美元升跌</a>
-                        <a href="" class="t2">脱欧谈判</a>
-                        <a href="" class="t3">英国脱欧</a><a href="" class="t1">美元升跌</a>
-                        <a href="" class="t2">脱欧谈判</a>
-                        <a href="" class="t3">英国脱欧</a>
+                        <a href="" class="">美元升跌</a>
+                        <a href="" class="">脱欧谈判</a>
+                        <a href="" class="">英国脱欧</a>
+                        <a href="" class="">美元升跌</a>
+                        <a href="" class="">脱欧谈判</a>
+                        <a href="" class="">英国脱欧</a>
+                        <a href="" class="">美元升跌</a>
+                        <a href="" class="">脱欧谈判</a>
+                        <a href="" class="">英国脱欧</a>
+                        <a href="" class="">美元升跌</a>
+                        <a href="" class="">脱欧谈判</a>
+                        <a href="" class="">英国脱欧</a>
                     </div>
                 </div>
                 <div class="operate clearfix">
                     <div class="fl prev">
-                        <i></i><a href="" class="">美银美林：6月三大金融风险不...</a>
+                        <a href="" class="">美银美林：6月三大金融风险不...<i></i></a>
                     </div>
                     <div class="fr next">
-                        <a href="" class="">美银美林：6月三大金融风险不... </a><i></i>
+                        <a href="" class="">美银美林：6月三大金融风险不... <i></i></a>
                     </div>
                     
                 </div>
@@ -78,5 +79,20 @@
             </div>
         </div>
     </div>
+    <script>
+        function method2(){
+			var color="#";
+			for(var i=0;i<6;i++){
+				color += (Math.random()*16 | 0).toString(16);
+			}
+			return color;
+		}
+        $(function () {
+            var aLength = $(".tag .box a").length;
+            for( var i=0; i<aLength; i++ ) {
+                $(".tag .box a").eq(i).css("background",method2());
+            }
+        })
+    </script>
 </body>
 </html>

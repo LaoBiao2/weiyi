@@ -110,11 +110,25 @@
 }
 .next .btn .mt4_btn{
     border-color: #ffffff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.next .btn .mt4_btn:hover {
+    background: #fff;
+    color: #28272f;
 }
 .next .btn .register_btn{
-    background: -webkit-linear-gradient(left, #bc3326 , #df4425); 
-    background: -o-linear-gradient(right, #bc3326 , #df4425); 
-    background: -moz-linear-gradient(right,  #bc3326 , #df4425); 
-    background: linear-gradient(to right,  #bc3326 , #df4425);
-    background: #df4425/0;
+    background: #df4425;
+    position: relative;
+}
+
+.next .btn .register_btn span {
+    width: 166px;
+    height: 40px;
+    font-size: 16px;
+    color: #fffefe;
+    line-height: 40px;
 }

@@ -7,19 +7,42 @@ body{
     margin: 0 auto 30px auto;
 }
 .sift .item{
+    height: 225px;
     position: relative;
     float: left;
     margin-right: 20px;
-}
-.sift .nr{
-    margin-right: 0;
+    overflow: hidden;
 }
 .sift .item:last-child{
     margin-right: 0;
 }
+
+.sift .item.one {
+    width: 510px;
+} 
+.sift .item.two {
+    width: 230px;
+} 
+
 .sift .item img{
     display: block;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
+
+.sift .item:hover img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
 .sift .item .txt{
     position: absolute;
     width: 100%;
@@ -233,6 +256,7 @@ body{
     font-size: 14px;
     color: #ffffff;
     margin: 0 20px 10px 0;
+    background: #279acb;
 }
 .market .article .tag .t1{
     background: #279acb;
@@ -265,6 +289,7 @@ body{
     width: 6px;
     height: 10px;
     background: url(../images/market/operate_icon.png) no-repeat;
+    cursor: pointer;
 }
 .market .operate .next i{
     background-position: -6px 0;

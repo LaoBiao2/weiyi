@@ -152,8 +152,8 @@
 .register .register-box .input-box select,
 .register .register-box .input-box .area {
     width: 230px;
-    background-color: #f5f5f5;
     border-color: #b4b9bd;
+    background-color: #f5f5f5;
 }
 .register .register-box .input-box .area {
     width: 100px;
@@ -178,12 +178,15 @@
     display: none;
     position: absolute;
     bottom: -26px;
-    /* left: 94px; */
-    left: 50%;
-    margin-left: -162px;
+    left: 84px;
+    /* left: 50%; */
+    /* margin-left: -162px; */
     line-height: 26px;
     font-size: 14px;
     color: #df4425;
+}
+.login-box .input-box span.error {
+    left: 21px;
 }
 .input-box.warning span.error {
     display: block;
