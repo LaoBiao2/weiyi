@@ -10,6 +10,7 @@
     <script src="js/jquery-1.9.1.min.js"></script>
 </head>
 <body>
+    <div id="header"></div>
     <div class="container">
         <div class="market news_con clearfix">
             <div class="fl article">
@@ -79,7 +80,10 @@
             </div>
         </div>
     </div>
+    <div id="footer"></div>
     <script>
+        $("#header").load("./common/header.html")
+        $("#footer").load("./common/footer.html")
         function method2(){
 			var color="#";
 			for(var i=0;i<6;i++){

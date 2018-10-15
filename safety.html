@@ -12,178 +12,7 @@
     <script src="/js/wow.min.js"></script>
 </head>
 <body>
-    <div class="header">
-        <div class="header-box clearfix">
-            <a href="javascript:;" class="logo-a">
-                <img src="./images/header_logo.png" alt="">
-            </a>
-            <ul class="ul-nav clearfix">
-                <li class="nav-li nav-li1 active">
-                    <a href="javascript:;">首页</a>
-                </li>
-                <li class="nav-li nav-li2">
-                    <a href="javascript:;">交易</a>
-                    <div class="submenu">
-                        <ul class="first-ul clearfix">
-                            <li class="first-li first-li1">
-                                <i></i>
-                                <span>账户管理</span>
-                                <ul class="second-ul">
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>用户中心</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>标准账户</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>体验账户</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="first-li first-li2">
-                                <i></i>
-                                <span>交易产品</span>
-                                <ul class="second-ul">
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>现货黄金</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>现货白银</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>富时A50</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>原油</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>美元指数</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="first-li first-li3">
-                                <i></i>
-                                <span>软件下载</span>
-                                <ul class="second-ul">
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>MT4 桌上设备</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>MT4 移动设备</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="first-li first-li4">
-                                <i></i>
-                                <span>重点关注</span>
-                                <ul class="second-ul">
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>最新公告</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>财经日历</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>非农专题</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>议息专题</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-li nav-li3">
-                    <a href="javascript:;">教育培训</a>
-                    <div class="submenu">
-                        <ul class="first-ul clearfix">
-                            <li class="first-li first-li1">
-                                <i></i>
-                                <span>教育培训</span>
-                                <ul class="second-ul">
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>账户指引</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>操作指南</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>MT4指导</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>基本知识</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>常见问题</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-li nav-li4">
-                    <a href="javascript:;">市场动态</a>
-                    <div class="submenu">
-                        <ul class="first-ul clearfix">
-                            <li class="first-li first-li1">
-                                <i></i>
-                                <span>市场动态</span>
-                                <ul class="second-ul">
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>专家点评</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>行情分析</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>经济数据</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>时事热点</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            <b></b>投行观点</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-li nav-li5">
-                    <a href="javascript:;">关于VEFX</a>
-                </li>
-            </ul>
-            <div class="btn-div">
-                <a href="javascript:;" class="btn-a login-btn">登录</a>
-                <a href="javascript:;" class="btn-a register-btn">创建账户<span>创建账户</span></a>
-            </div>
-        </div>
-    </div>
+    <div id="header"></div>
     <script>
         $(".header .ul-nav .nav-li").hover(function () {
             $(this).find(".submenu").stop(true, true).fadeToggle();
@@ -270,11 +99,14 @@
     <div class="next">
         <h4>准备好下一步</h4>
         <div class="btn">
-            <a href="" class="mt4_btn">mt4下载</a>
-            <a href="" class="register_btn">开立真实账户<span class="gradualChangeBg hover-hidden">开立真实账户</span></a>
+            <a href="/mt4" class="mt4_btn">mt4下载</a>
+            <a href="/register" class="register_btn">开立真实账户<span class="gradualChangeBg hover-hidden">开立真实账户</span></a>
         </div>
     </div>
+    <div id="footer"></div>
     <script>
+        $("#header").load("./common/header.html")
+        $("#footer").load("./common/footer.html")
         $(function () {
             new WOW().init();
         })

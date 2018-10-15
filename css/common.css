@@ -125,7 +125,7 @@ html,body{
 }
 .header .header-box .ul-nav {
     margin: 0 70px;
-    width: 613px; 
+    width: 620px; 
     float: left;
 }
 .header .header-box .ul-nav li.nav-li {
@@ -144,7 +144,8 @@ html,body{
 .header .header-box .ul-nav li.nav-li.active > a,
 .header .header-box .ul-nav li.nav-li > a:hover,
 .footer .footer-nav .first-ul .first-li a:hover,
-.ul-nav li .submenu .first-ul li .second-ul li a:hover {
+.ul-nav li .submenu .first-ul li .second-ul li a:hover,
+.footer .footer-txt .copyright ul li:not(:last-child) a:hover {
     color: #da4023;
 }
 .header .header-box .btn-div {
@@ -209,15 +210,15 @@ html,body{
 .header .header-box .ul-nav li .submenu .first-ul .first-li1 {
     margin-left: 0;
 }
-.ul-nav li .submenu .first-ul li.first-li i {
-    width: 17px;    
+.ul-nav li .submenu .first-ul li.first-li img {
+    width: 26px;    
     height: 24px;
     float: left;
     margin-right: 9px;
     fill: #fff;
-    background: url(../images/header_icon.png) -1px 0 no-repeat;
+    /* background: url(../images/header_icon.png) -1px 0 no-repeat; */
 }
-.ul-nav li .submenu .first-ul li.first-li2 i {
+/* .ul-nav li .submenu .first-ul li.first-li2 i {
     width: 18px;
     background-position-x: -27px; 
 }
@@ -236,7 +237,7 @@ html,body{
 .ul-nav li.nav-li4 .submenu .first-ul li.first-li i {
     width: 21px;
     background-position: -27px -30px;
-}
+} */
 .ul-nav li .submenu .first-ul li.first-li span {
     font-size: 16px;
     line-height: 24px;
@@ -403,6 +404,11 @@ html,body{
     font-size: 14px;
     line-height: 18px;
     color: #f0f0f0;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 
 /* 内页banner */

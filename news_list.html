@@ -10,6 +10,7 @@
     <script src="js/jquery-1.9.1.min.js"></script>
 </head>
 <body>
+    <div id="header"></div>
     <div class="container">
         <div class="sift clearfix">
             <div class="item one">
@@ -124,5 +125,10 @@
             </div>
         </div>
     </div>
+    <div id="footer"></div>
+    <script>
+        $("#header").load("./common/header.html")
+        $("#footer").load("./common/footer.html")
+    </script>
 </body>
 </html>
